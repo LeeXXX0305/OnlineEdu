@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="edu-framework-common" />
         <module name="edu-microservice-center" />
+        <module name="edu-microservice-sysuser" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="edu-framework-common" target="1.8" />
       <module name="edu-framework-parent" target="1.8" />
       <module name="edu-microservice-center" target="1.8" />
+      <module name="edu-microservice-sysuser" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -21,6 +23,7 @@
       <module name="edu-framework-common" options="-parameters" />
       <module name="edu-framework-parent" options="-parameters" />
       <module name="edu-microservice-center" options="-parameters" />
+      <module name="edu-microservice-sysuser" options="-parameters" />
     </option>
   </component>
 </project>

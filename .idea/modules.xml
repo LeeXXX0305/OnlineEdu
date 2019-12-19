@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/edu-framework-common/edu-framework-common.iml" filepath="$PROJECT_DIR$/edu-framework-common/edu-framework-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-framework-parent/edu-framework-parent.iml" filepath="$PROJECT_DIR$/edu-framework-parent/edu-framework-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-microservice-center/edu-microservice-center.iml" filepath="$PROJECT_DIR$/edu-microservice-center/edu-microservice-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-microservice-sysuser/edu-microservice-sysuser.iml" filepath="$PROJECT_DIR$/edu-microservice-sysuser/edu-microservice-sysuser.iml" />
     </modules>
   </component>
 </project>
