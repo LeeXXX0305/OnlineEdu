@@ -24,7 +24,7 @@ public class TeacherAdminController {
     @GetMapping
     public ResultVo list() {
         List<Teacher> list = teacherService.list(null);
-        return ResultVo.ok().data("items", list);
+        return ResultVo.ok().data("data", list);
     }
 
     @DeleteMapping("{id}")

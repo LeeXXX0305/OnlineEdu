@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/edu-framework-center/pom.xml" />
         <option value="$PROJECT_DIR$/edu-microservice-center/pom.xml" />
         <option value="$PROJECT_DIR$/edu-microservice-sysuser/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-commonservice-eureka/pom.xml" />
       </list>
     </option>
   </component>

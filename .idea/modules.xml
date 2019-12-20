@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/OnlineEdu.iml" filepath="$PROJECT_DIR$/.idea/OnlineEdu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-commonservice-eureka/edu-commonservice-eureka.iml" filepath="$PROJECT_DIR$/edu-commonservice-eureka/edu-commonservice-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-framework-common/edu-framework-common.iml" filepath="$PROJECT_DIR$/edu-framework-common/edu-framework-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-framework-parent/edu-framework-parent.iml" filepath="$PROJECT_DIR$/edu-framework-parent/edu-framework-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-microservice-center/edu-microservice-center.iml" filepath="$PROJECT_DIR$/edu-microservice-center/edu-microservice-center.iml" />
