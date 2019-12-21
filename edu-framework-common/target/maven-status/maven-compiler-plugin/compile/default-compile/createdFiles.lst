@@ -1,4 +1,0 @@
-com\onlineEdu\common\Common.class
-com\onlineEdu\common\constants\ResultCodeEnum.class
-com\onlineEdu\common\handler\GlobalExceptionHandler.class
-com\onlineEdu\common\vo\ResultVo.class
