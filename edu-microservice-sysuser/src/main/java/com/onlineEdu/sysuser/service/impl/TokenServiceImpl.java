@@ -26,9 +26,15 @@ public class TokenServiceImpl extends ServiceImpl<TokenMapper, Token> implements
 
         //TODO:根据用户名查询数据库中的用户信息
         Sysuser user = new Sysuser();
-        user.setId("1");
-        user.setPassword("admin");
-        user.setUsername("admin");
+        if(loginDto.getUsername().equals("admin")) {
+            user.setId("1");
+            user.setPassword("admin");
+            user.setUsername("admin");
+        }else{
+            user.setId("2");
+            user.setPassword(loginDto.getPassword());
+            user.setUsername(loginDto.getUsername());
+        }
 
         //用户不存在
         if (user == null) {
@@ -40,7 +46,7 @@ public class TokenServiceImpl extends ServiceImpl<TokenMapper, Token> implements
             return new TokenDto(UserStatusEnum.PWD_ERROR.getCode(),UserStatusEnum.PWD_ERROR.getMessage(),null);
         }
 
-        //查询用户的token
+        //生成用户的token
         String token = generateToken(user);
         return new TokenDto(UserStatusEnum.VERIFY_SUCCESS.getCode(),UserStatusEnum.VERIFY_SUCCESS.getMessage(),token);
     }
