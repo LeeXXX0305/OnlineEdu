@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.onlineEdu.vod.mapper.CourseMapper">
+<mapper namespace="com.onlineEdu.sysuser.mapper.CourseMapper">
 
-    <select id="selectCoursePublishInfoById" resultType="com.onlineEdu.vod.dto.CoursePublishDto">
+    <select id="selectCoursePublishInfoById" resultType="com.onlineEdu.sysuser.dto.CoursePublishDto">
         SELECT
         c.title,
         c.cover,
@@ -20,7 +20,7 @@
         c.id = #{id}
     </select>
 
-    <select id="selectCourseInfoById" resultType="com.onlineEdu.vod.dto.CourseInfoDto">
+    <select id="selectCourseInfoById" resultType="com.onlineEdu.sysuser.dto.CourseInfoDto">
         SELECT
         c.title,
         c.cover,

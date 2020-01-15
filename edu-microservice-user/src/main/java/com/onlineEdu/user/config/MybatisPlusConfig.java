@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@MapperScan("com.onlineEdu.vod.mapper")
+@MapperScan("com.onlineEdu.sysuser.mapper")
 public class MybatisPlusConfig {
     /**
      * SQL 执行性能分析插件
